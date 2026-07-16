@@ -2,7 +2,7 @@
 
 A small, fully tested Swift library that treats code review capacity as a **resource allocated by policy, not vibes**: it parses a unified diff, runs it through an ordered stack of verification gates, and routes the change to the cheapest review tier that can actually catch its risk — with a complete audit trail explaining every verdict.
 
-Companion repo to the article: **Article: (added after publish — see below)**
+Companion repo to the article: [**AI Made Code Cheap. Code Review Just Became the Most Expensive Thing You Own.**](https://medium.com/p/2f72cb8d8abd)
 
 ![Verification pipeline diagram: a unified diff flows through four gates — diff budget, critical paths, test presence, churn shape — and the worst finding severity routes it to agent review, one human reviewer, or pair review](article-assets/diagram.png)
 
